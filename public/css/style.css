@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSSの初期化 */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* 全体 */
+body{
+    background-image: url(/public/images/stufflogin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* フォーム */
+form{
+    height: 465px;
+    width: 380px;
+    background-color: rgba(223, 159, 130, 0.562);
+    margin: 50px auto;
+    border-radius: 30px;
+}
+form h1{
+    color: rgba(250, 238, 203, 0.781);
+    text-align: center;
+    padding-top: 60px;
+}
+/* アイコン */
+.far,.fas{
+    color: #E55034;
+    font-size: 20px;
+    margin-right: 15px;
+}
+/* 入力欄 */
+form p{
+    width: 300px;
+    margin: 0 auto;
+}
+input{
+    outline: none;
+}
+.inputMail,.inputPswd{
+    width: 215px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(250, 238, 203, 0.589);
+    padding-left: 15px;
+    font-size: 18px;
+    color:rgba(136, 82, 20, 0.589);
+}
+.inputMail{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.inputMail::placeholder,.inputPswd::placeholder{
+    color: rgba(95, 83, 83, 0.795);
+}
+/* 送信ボタン */
+.login{
+    width: 190px;
+    height: 45px;
+    background-color: #f55d17a2;
+    display: block;
+    margin: 0 auto;
+    color: rgba(247, 240, 218, 0.61);
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+/* パスワード忘れた方 */
+.forget{
+    width: 160px;
+    margin-top: 15px;
+}
+.forgetText{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+.forgetText:hover{
+    color: #f30b0bf3;
+}
