@@ -7,7 +7,7 @@
 }
 /* 全体 */
 body{
-    background-image: url(/public/images/stufflogin.jpg);
+    background-image: url(/images/stufflogin.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -15,18 +15,19 @@ body{
 form{
     height: 465px;
     width: 380px;
-    background-color: rgba(223, 159, 130, 0.562);
+    background-color: #fffafaa8;
     margin: 50px auto;
     border-radius: 30px;
+    box-shadow: 5px 4px 6px #7e8f8d7a;
 }
 form h1{
-    color: rgba(250, 238, 203, 0.781);
+    color: #A9A9A9;
     text-align: center;
     padding-top: 60px;
 }
 /* アイコン */
 .far,.fas{
-    color: #E55034;
+    color:#f789a191;
     font-size: 20px;
     margin-right: 15px;
 }
@@ -43,10 +44,10 @@ input{
     height: 45px;
     border-radius: 10px;
     border: none;
-    background-color: rgba(250, 238, 203, 0.589);
+    background-color: #a9a9a93d;
     padding-left: 15px;
     font-size: 18px;
-    color:rgba(136, 82, 20, 0.589);
+    color:#630f2196;
 }
 .inputMail{
     margin-top: 40px;
@@ -59,10 +60,10 @@ input{
 .login{
     width: 190px;
     height: 45px;
-    background-color: #f55d17a2;
+    background-color:#a9a9a93d;
     display: block;
     margin: 0 auto;
-    color: rgba(247, 240, 218, 0.61);
+    color:#f789a19a;
     font-weight: bold;
     text-align: center;
     line-height: 45px;
@@ -71,17 +72,4 @@ input{
     border-radius: 10px;
     margin-top: 40px;
     cursor: pointer;
-}
-/* パスワード忘れた方 */
-.forget{
-    width: 160px;
-    margin-top: 15px;
-}
-.forgetText{
-    color: #fff;
-    font-size: 12px;
-    text-decoration: none;
-}
-.forgetText:hover{
-    color: #f30b0bf3;
 }
