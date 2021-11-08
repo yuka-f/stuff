@@ -15,7 +15,7 @@ body{
 form{
     height: 465px;
     width: 380px;
-    background-color: #fffafaa8;
+    background-color: #fffafa31;
     margin: 50px auto;
     border-radius: 30px;
     box-shadow: 5px 4px 6px #7e8f8d7a;
@@ -44,7 +44,7 @@ input{
     height: 45px;
     border-radius: 10px;
     border: none;
-    background-color: #a9a9a93d;
+    background-color: #c9c5c5fd;
     padding-left: 15px;
     font-size: 18px;
     color:#630f2196;
