@@ -39,7 +39,7 @@ form p{
 input{
     outline: none;
 }
-.inputMail,.inputPswd{
+.inputMail,.inputPswd,.inputName,.inputPlace{
     width: 215px;
     height: 45px;
     border-radius: 10px;
@@ -49,8 +49,12 @@ input{
     font-size: 18px;
     color:#630f2196;
 }
-.inputMail{
+.inputMail,.inputName{
     margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.inputPlace{
     margin-bottom: 25px;
 }
 .inputMail::placeholder,.inputPswd::placeholder{
