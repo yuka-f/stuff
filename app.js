@@ -16,4 +16,8 @@ app.get('/stuffsign',(req,res) => {
     res.render('stuffsign.ejs');
 });
 
+app.get('/result',(req,res) => {
+    res.render('result.ejs');
+});
+
 app.listen(3000);

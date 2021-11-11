@@ -5,6 +5,15 @@
     padding: 0;
     
 }
+/* header */
+header {
+    width: 100%;
+    margin: 0 auto;
+    height: 56px;
+    background-color:#f789a13f;
+    border-bottom: 1px solid #f0f4f965;
+  }
+
 /* 全体 */
 body{
     background-image: url(/images/stufflogin.jpg);
