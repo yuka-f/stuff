@@ -14,12 +14,21 @@ header {
     border-bottom: 1px solid #f0f4f965;
   }
 
+
+header .fa-bars{
+    padding-left: 15px;
+    color:#fff;
+    opacity: 0.7;
+  }
+
 /* 全体 */
 body{
     background-image: url(/images/stufflogin.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
 /* フォーム */
 form{
     height: 465px;
@@ -86,3 +95,93 @@ input{
     margin-top: 40px;
     cursor: pointer;
 }
+
+/* 観覧ページ */
+.container {
+    width: 80%;
+    min-width: 360px;
+    max-width: 720px;
+    margin: 0 auto;
+    margin-top: 56px;
+  }
+  
+  
+  
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .container-header.login a + p {
+    align-items: center;
+    margin-top: 36px;
+    font-weight: bold;
+    font-size: 14px;
+    
+  }
+  
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #a64ccf85;
+    height: 54px;
+    padding: 0 90px;
+    border-radius: 27px;
+  }
+  
+  .btn:hover {
+    background-color: #c757beaf;
+  }
+  /* .container-header.login img {
+    margin: 10px auto 30px;
+    
+  } */
+  
+  
+  .container-header .new-button {
+    background-color:#ffffffdc;
+    color: #6c7686;
+    border-radius: 30px;
+    font-size: 14px;
+    width: 120px;
+    height: 45px;
+    line-height: 43px;
+    text-align: center;
+    border: 2px solid #a5948448;
+  }
+  .container-header .new-button:hover {
+    transition: all 0.1s ease;
+    box-shadow: 3px 8px #7e8f8d7a;
+    position: relative;
+    bottom: 2px;
+    right: 1px;
+  }
+  
+  .container-header .new-button:active {
+    box-shadow:none;
+    position: relative;
+    top: 2px;
+    left: 1px;
+  }
+  
+  
+  .cancel-button {
+    margin-top: 16px;
+    margin-left: 2px;
+    font-weight: 600;
+    color: #bac6d3;
+    text-decoration: underline;
+    display: inline-block;
+  }
+  
+  .cancel-button:hover {
+    color: #693a0452;
+  }
+  .container-header h1 {
+    font-size: 24px;
+  }

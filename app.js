@@ -1,6 +1,17 @@
 const express = require('express');
-
+const mysql = require('mysql2');
+const e = require('express');
 const app = express();
+
+app.use(express.static('public'));
+
+
+const connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: 'sqlbaby171819',
+    database: 'beauty_app'
+  });
 
 app.use(express.static('public'));
 

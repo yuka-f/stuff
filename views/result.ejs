@@ -12,12 +12,28 @@
         
         <body>
             <%- include('header'); %>
-            <form action="#">
-                <h1>login</h1>
-                <!-- 入力エリア-->
-                <p><i class="fas fa-envelope"></i><input class="inputMail" type="email" placeholder="Mail"></p>
-                <p><i class="fas fa-key"></i><input class="inputPswd" type="password" placeholder="Password"></p>
-                <input class="login" id="login" type="submit" name="" value="LOGIN"></a>
-            </form>
+
+            <div class="container">
+                <div class="container-header">
+                    <h1>Beauty みっしょん</h1>
+                </div>
+                <div class="index-table-wrapper">
+                  <div class="table-head">
+                    <span class="id-column">ID</span>
+                    <span>TODAYSこんぷりーと</span>
+                  </div>
+                  <ul class="table-body">
+                      <% mission.forEach((item) =>{ %>
+                        <li>
+                          <div class="item-data">
+                            <span class="id-column"><% item.id %></span>
+                            <span class="name-column"><%= item.name %></span>
+                          </div>
+                        </li>
+                      <% }); %>
+                    </ul>
+                </div>
+              </div>
+            
         </body>
     </html>
